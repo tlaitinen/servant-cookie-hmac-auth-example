@@ -4,7 +4,7 @@ This example builds on [servant-persistent](https://github.com/parsonsmatt/serva
 adds:
  * cookie authentication combinator [CookieAuth](src/CookieAuth.hs)
  * request body authentication combinator [AuthReqBody](src/AuthReqBody.hs)
- * simple login handler
+ * simple login [handler](src/Api/Session.hs)
 
 ## Compiling and starting the server
 
